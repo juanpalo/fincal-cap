@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%; // 1rem is 10px
+    font-size: 62.5%;
 }
 
 *,
@@ -8,40 +8,11 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
-body {
-    overflow-x: hidden;
-    font-weight: normal;
+@import "app";
+@import "headernavbar";
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
-}
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
 
-// Navbar Component Style
-.navigation-wrapper {
-    display: grid;
-    grid-template-rows: [s] 100px [m] 50px [e];
-    grid-template-columns: [login-s] 1fr [login-e signup-s] 1fr [signup-e featured-s] 1fr [featured-e cart-s] 1fr [cart-e];
-    justify-content: center;
-    align-items: center;
-    
-
-    .__title {
-        grid-row: s/m;
-        grid-column: login-s/cart-e;
-        
-    }
-
-    
-}
 

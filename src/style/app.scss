@@ -1,0 +1,8 @@
+.app {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: [header-s] 75px [header-e navbar-s] 75px [navbar-e];
+    grid-template-columns: [s] 1fr [e];
+}
+
