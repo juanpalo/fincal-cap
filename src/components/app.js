@@ -18,3 +18,7 @@ class App extends Component {
 
 
 export default App;
+
+// https://rails.devcamp.com/pt-full-stack-development-javascript-python-react/guide/sign-in-sign-up-component-setup
+// 8:50 left
+// rendered sign in component
